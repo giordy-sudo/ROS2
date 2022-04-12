@@ -31,9 +31,9 @@
   sudo apt-get install ros-galactic-*
   ```
 
-1.1) To obtain name of dependences to insert in the CMakeList you have just to take the interested name in the following list, put underscores instead dashs and take just the part after **ros-galactic-**.
+2) To obtain name of dependences to insert in the CMakeList you have just to take the interested name in the following list, put underscores instead dashs and take just the part after **ros-galactic-**.
 
-2) Single component installation: 
+3) Single component installation: 
 ```
 sudo apt-get install ...
 ```
