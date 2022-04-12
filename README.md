@@ -17,9 +17,12 @@
   ```
   sudo apt-get install ros-galactic-gazebo-ros ros-galactic-gazebo-ros2-control-demos-dbgsym ros-galactic-gazebo-ros2-control ros-galactic-gazebo-ros-dbgsym ros-galactic-gazebo-ros2-control-dbgsym ros-galactic-gazebo-ros-pkgs ros-galactic-gazebo-ros2-control-demos
   ```
-## PLOTJUGGLER
+## PLOTJUGGLER (https://github.com/ros2-gbp/plotjuggler-release)
   ```
   sudo apt install ros-galactic-plotjuggler-ros-*
+  ```
+  ```
+  ros2 run plotjuggler plotjuggler
   ```
 ## ALL THE POSSIBLE DEPENDENCES
   ```
