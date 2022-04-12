@@ -1,14 +1,14 @@
-# ROS2
-
-- ROS2 Principal Commands
+# 🔺 ROS2
+-------------------------------------
+# • ROS2 Principal Commands
 
   ```
   colcon build --packages-select name_pkg
   ```
 
-
-- ROS2 Dependences
-##CONTROLLERS
+-------------------------------------
+# • ROS2 Dependences
+## CONTROLLERS
   ```
   sudo apt-get install ros-galactic-ros2-control
   sudo apt-get install ros-galactic-ros2-controllers
@@ -27,6 +27,10 @@
   ```
 
 -- List:
+```
+sudo apt-get install ...
+```
+```
 ros-galactic-acado-vendor
 ros-galactic-acado-vendor-dbgsym
 ros-galactic-ackermann-msgs
@@ -1350,3 +1354,4 @@ ros-galactic-yaml-cpp-vendor
 ros-galactic-yaml-cpp-vendor-dbgsym
 ros-galactic-zstd-vendor
 ros-galactic-zstd-vendor-dbgsym
+```
