@@ -25,11 +25,15 @@
   ros2 run plotjuggler plotjuggler
   ```
 ## ALL THE POSSIBLE DEPENDENCES
+
+1) Full Installation:
   ```
   sudo apt-get install ros-galactic-*
   ```
 
--- List:
+1.1) To obtain name of dependences to insert in the CMakeList you have just to take the interested name in the following list, put underscores instead dashs and take just the part after **ros-galactic-**.
+
+2) Single component installation: 
 ```
 sudo apt-get install ...
 ```
