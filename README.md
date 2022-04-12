@@ -8,21 +8,20 @@
 
 
 - ROS2 Dependences
--- CONTROLLERS
+##CONTROLLERS
   ```
   sudo apt-get install ros-galactic-ros2-control
   sudo apt-get install ros-galactic-ros2-controllers
   ```
--- GAZEBO
+## GAZEBO
   ```
   sudo apt-get install ros-galactic-gazebo-ros ros-galactic-gazebo-ros2-control-demos-dbgsym ros-galactic-gazebo-ros2-control ros-galactic-gazebo-ros-dbgsym ros-galactic-gazebo-ros2-control-dbgsym ros-galactic-gazebo-ros-pkgs ros-galactic-gazebo-ros2-control-demos
   ```
--- PLOTJUGGLER
+## PLOTJUGGLER
   ```
   sudo apt install ros-galactic-plotjuggler-ros-*
   ```
-  
--- ALL THE POSSIBLE DEPENDENCES
+## ALL THE POSSIBLE DEPENDENCES
   ```
   sudo apt-get install ros-galactic-*
   ```
