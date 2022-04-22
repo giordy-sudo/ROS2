@@ -12,7 +12,10 @@
   ```
   RCLCPP_INFO(get_logger(), "Management");
   ```
-
+  If someone doesn't work try with:
+  ```
+  RCLCPP_WARN(get_logger(), "---» NAPOLI");
+  ```
 -------------------------------------
 # • ROS2 Dependences
 ## CONTROLLERS
