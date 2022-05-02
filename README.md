@@ -7,7 +7,7 @@
   ```
 2) Example for printing.
   ```
-  RCLCPP_INFO(get_logger(), "PROVA: '%.2f'",p_l[1]);
+  RCLCPP_INFO(get_logger(), "PROVA: '%.5f'",p_l[1]);
   ```
   ```
   RCLCPP_INFO(get_logger(), "Management");
