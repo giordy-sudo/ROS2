@@ -16,6 +16,14 @@
   ```
   RCLCPP_WARN(get_logger(), "---» NAPOLI");
   ```
+  3) Vector print example.
+   ```       
+  std::vector<double> fizz;
+  for(int v: fizz) 
+  {
+    std::cout << "v: " << v << std::endl;
+  }
+   ```
 -------------------------------------
 # • ROS2 Dependences
 ## CONTROLLERS
