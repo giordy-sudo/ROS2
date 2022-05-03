@@ -25,11 +25,10 @@
  ```
 3) Vector print example.
   ```       
-  std::vector<double> fizz;
-  for(int v: fizz) 
-  {
-    std::cout << "v: " << v << std::endl;
-  }
+ for(int i=0; i< 7; i++) 
+ {   
+    RCLCPP_INFO(get_logger(), "'%.5f'", B[i]);
+ }
    ```
 -------------------------------------
 # • ROS2 Dependences
