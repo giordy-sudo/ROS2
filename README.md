@@ -16,8 +16,15 @@
   ```
   RCLCPP_WARN(get_logger(), "---» NAPOLI");
   ```
-  3) Vector print example.
-   ```       
+  Mixed example:
+  ```
+  RCLCPP_INFO(this->get_logger(), "str: %s, int: %s, double[]: %s",
+                str_param.value_to_string().c_str(),
+                int_param.value_to_string().c_str(),
+                double_array_param.value_to_string().c_str());
+ ```
+3) Vector print example.
+  ```       
   std::vector<double> fizz;
   for(int v: fizz) 
   {
