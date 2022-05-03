@@ -25,7 +25,7 @@
  ```
 3) Vector print example.
   ```       
- for(int i=0; i< B.size(); i++) 
+ for(int i=0; i< int(B.size()); i++) 
  {   
     RCLCPP_INFO(get_logger(), "'%.5f'", B[i]);
  }
