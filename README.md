@@ -6,8 +6,13 @@
   colcon build --packages-select name_pkg
   ```
 2) Example for printing.
+  - Single print of double
   ```
   RCLCPP_INFO(get_logger(), "PROVA: '%.5f'",p_l[1]);
+  ```
+  - Multiple print of double
+  ```
+  RCLCPP_INFO(get_logger(), "P: ['%f', '%f', '%f']", a, b, c);
   ```
   ```
   RCLCPP_INFO(get_logger(), "Management");
