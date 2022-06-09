@@ -12,6 +12,9 @@
   ```
   - Multiple print of double
   ```
+  RCLCPP_INFO(kLogger, "k: ['%f', '%f', '%f', '%f', '%f', '%f', '%f']", k[0], k[1], k[2], k[3], k[4], k[5], k[6]);
+  ```
+  ```
   RCLCPP_INFO(get_logger(), "P: ['%f', '%f', '%f']", a, b, c);
   ```
   ```
