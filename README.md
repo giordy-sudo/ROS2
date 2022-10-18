@@ -6,6 +6,11 @@
   colcon build --packages-select name_pkg
   ```
 2) Example for printing.
+
+  - Smart way
+  ```
+  RCLCPP_INFO_STREAM(kLogger_, "q" << q_ );
+  ```
   - Single print of double
   ```
   RCLCPP_INFO(get_logger(), "PROVA: '%.5f'",p_l[1]);
