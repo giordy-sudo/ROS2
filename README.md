@@ -1,6 +1,10 @@
 # 🔺 ROS2
 -------------------------------------
 # • ROS2 Principal Commands
+0) Relative pose from 2 links
+  ```
+  ros2 run tf2_ros tf2_echo "link_A" "link_B"
+  ```
 1) Single package complilation.
   ```
   colcon build --packages-select name_pkg
