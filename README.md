@@ -11,6 +11,8 @@
   ```
 2) Example for printing.
 
+DOCUMENTATION : https://docs.ros.org/en/rolling/Concepts/About-Logging.html
+
   - Smart way
   ```
   RCLCPP_INFO_STREAM(kLogger_, "q" << q_ );
